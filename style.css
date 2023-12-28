@@ -1,0 +1,58 @@
+
+#navbag{
+    background-color: white;
+}
+#filll{
+    background-color: gray;
+}
+.colorfit{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.venus{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.gradient-background{
+    background: linear-gradient(300deg, #5900ff, hsl(263, 63%, 17%), #12032e);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+    @keyframes gradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+ 
+    }
+    background-size: 100%;
+    position: relative;
+}
+#order{
+    padding-top: 5%;
+}
+#products{
+    text-align: center;
+    color: white;
+}
+.place{
+    text-align: center;
+}
+.Carousel-indicators{
+    width: 100%;
+    height: fit-content;
+    width: fit-content;
+}    
+@media only screen and (max-width: 600px) {
+    .carousel-indicators {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }
